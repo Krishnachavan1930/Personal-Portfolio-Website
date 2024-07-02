@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Krishna Chavan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>HI, I'm <span>Krishna Chavan</span></h1>
+            </div>
+
+        </div>
+        
+    </div>
+    <!-- About Section -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my portfolio! I'm Krishna, a skilled and creative web developer passionate about
+                        creating beautiful, responsive, and user-friendly websites.
+                        With experience in a variety of web projects, I specialize in delivering tailored solutions that
+                        captivate audiences. Explore my portfolio to witness the intersection of design and
+                        functionality.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span><B>BE Computer Engineering </span><br>Sandip Institute Of Technology And Research Centre,Nashik.<br> <i>(Savitribai phule Pune University)</i>.</li>
+                            <li><span>XII [HSC] </span><br>Badrinarayan Barwale Junior College,Jalna.<BR><i>(Babasaheb Ambedkar Marathwada University).</i></li>
+                            <li><span>X [CBSE]</span><br>Vivekananda English School,Partur.<br><i>(Central Board Of Secondary Education,Delhi).</i></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>TechnoHacks EduTech</span><br><b>C++ Intern(2023)</b></li>
+                            <li><span>Class Representative</span><br><b>Second Year Computer Engineering (2023-2024)</b></li>
+                            <li><span>Cultural Head</span><br><b>Computer Engineering Students Association[TEAM-CESA]</b> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Frontend</span><br>Building Responsive Websites</li>
+                            <li><span>Backend</span><br>Developing Server-Side Logic</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services---------- -->
+     <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat odit distinctio repellat ab ipsam, consequuntur expedita quis tempora tenetur qui rem quasi voluptatem reiciendis aut natus eligendi illum praesentium!</p>
+                    <a href="">learn more</a>
+                </div>
+
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat odit distinctio repellat ab ipsam, consequuntur expedita quis tempora tenetur qui rem quasi voluptatem reiciendis aut natus eligendi illum praesentium!</p>
+                    <a href="">learn more</a>
+                </div>
+
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat odit distinctio repellat ab ipsam, consequuntur expedita quis tempora tenetur qui rem quasi voluptatem reiciendis aut natus eligendi illum praesentium!</p>
+                    <a href="">learn more</a>
+                </div>
+
+
+                
+            </div>
+        </div>
+     </div>
+
+<!-- -----------Projects------------- -->
+
+
+<div class="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png">
+                <img src="./images/work-2.png">
+                <img src="./images/work-3.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js">
+        // var tablinks = document.getElementsByClassName("tab-links");
+        // var tabcontents = document.getElementsByClassName("tab-contents");
+
+        // function opentab(tabname) {
+        //     for (let tablink of tablinks) {
+        //         tablink.classList.remove("active-link");
+        //     }
+        //     for (let tabcontent of tabcontents) {
+        //         tabcontent.classList.remove("active-tab");
+        //     }
+        //     document.getElementById(tabname).classList.add("active-tab");
+        //     event.currentTarget.classList.add("active-link");
+        // }
+    </script>
+</body>
+
+</html>
